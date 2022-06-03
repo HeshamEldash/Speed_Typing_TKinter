@@ -104,7 +104,7 @@ class App():
             self.entry_text_widget.delete('1.0', END)
             self.entry_text_widget.focus_set()
             self.highlight()
-            self.root.after(6000, self.disable)
+            self.root.after(60000, self.disable)
 
 
 
